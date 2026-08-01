@@ -9,7 +9,7 @@ const SITE_CONFIG = {
   whatsappNumber: "5491132119391",           // solo números, con código de país. ej: Arg = 54 9 11 XXXXXXXX
   whatsappMessage: "Hola! Quiero pedir un presupuesto para hidrolavado.",
   instagramHandle: "@hidromax.ok",             // ej: "@hidrolavados.oeste"
-  location: "Zona Norte, Pilar, Nordelta, Capital Federal y Rosario"               // ej: "San Justo, Buenos Aires"
+  location: "Trabajamos en GBA y Capital Federal: desde Campana hasta La Plata."               // ej: "San Justo, Buenos Aires"
 };
 
 (function init() {
