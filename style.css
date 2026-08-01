@@ -638,7 +638,8 @@ button { font-family: inherit; cursor: pointer; }
   .services__grid { grid-template-columns: 1fr; }
   .why__grid { grid-template-columns: 1fr; }
   .process__steps { grid-template-columns: 1fr; }
-  .result-card__images img { height: 160px; }
+  .result-card__images { grid-template-columns: 1fr; }
+  .result-card__images img { height: 250px; }
   .footer__inner { grid-template-columns: 1fr; }
 }
 
