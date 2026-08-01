@@ -13,7 +13,7 @@
 
   --white: #FFFFFF;
 
-  --grad: linear-gradient(135deg, #F9CE34 0%, #EE2A7B 55%, #6228D7 100%);
+  --grad: #2564a8;
   --grad-soft: linear-gradient(135deg, rgba(249,206,52,0.14) 0%, rgba(238,42,123,0.14) 55%, rgba(98,40,215,0.14) 100%);
 
   --dark: #121218;
@@ -113,7 +113,7 @@ button { font-family: inherit; cursor: pointer; }
 .btn--lg { padding: 16px 30px; font-size: 1rem; }
 
 .btn--primary {
-  background: var(--ink);
+  background: var(--grad);
   color: var(--white);
 }
 .btn--primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
@@ -134,7 +134,7 @@ button { font-family: inherit; cursor: pointer; }
 .btn--nav {
   padding: 10px 18px;
   font-size: 0.88rem;
-  background: var(--ink);
+  background: var(--grad);
   color: var(--white);
 }
 
@@ -639,7 +639,7 @@ button { font-family: inherit; cursor: pointer; }
   .why__grid { grid-template-columns: 1fr; }
   .process__steps { grid-template-columns: 1fr; }
   .result-card__images { grid-template-columns: 1fr; }
-  .result-card__images img { height: 250px; }
+  .result-card__images img { height: 400px; }
   .footer__inner { grid-template-columns: 1fr; }
 }
 
